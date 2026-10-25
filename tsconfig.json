@@ -1,0 +1,5 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": { "strict": true, "noEmit": true, "skipLibCheck": true },
+  "include": ["App.tsx", "src-native/**/*.ts", "src-native/**/*.tsx", "original/src/types/**/*.ts", "original/src/engine/wordSearch.ts", "original/src/data/destinations.ts"]
+}

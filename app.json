@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "Word Odyssey Pro",
+    "slug": "word-odyssey-pro",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "android": {
+      "package": "com.YOURCOMPANY.wordodysseypro",
+      "versionCode": 1,
+      "permissions": []
+    },
+    "ios": {
+      "bundleIdentifier": "com.YOURCOMPANY.wordodysseypro",
+      "supportsTablet": true
+    },
+    "plugins": [
+      ["react-native-google-mobile-ads", {
+        "androidAppId": "ca-app-pub-3940256099942544~3347511713",
+        "iosAppId": "ca-app-pub-3940256099942544~1458002511",
+        "userTrackingUsageDescription": "This identifier may be used to deliver and measure ads."
+      }],
+      "expo-dev-client"
+    ],
+    "extra": { "eas": { "projectId": "REPLACE_WITH_EAS_PROJECT_ID" } }
+  }
+}
